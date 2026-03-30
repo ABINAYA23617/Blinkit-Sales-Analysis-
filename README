@@ -1,0 +1,94 @@
+Blinkit Sales SQL Analysis
+
+    Project Overview
+This project focuses on analyzing retail sales data using SQL. It involves data cleaning, transformation, and generating business insights using advanced SQL techniques. The project also includes relational database design with proper normalization and ER modeling.
+
+---
+
+Tools & Technologies
+- MySQL
+- SQL (Joins, CTEs, Window Functions)
+- MySQL Workbench
+
+---
+
+Dataset
+- Retail dataset (Blinkit-style)
+- Contains information about:
+  - Items
+  - Outlets
+  - Sales
+  - Ratings
+  - Visibility
+
+---
+
+Data Cleaning
+- Renamed columns for consistency
+- Standardized categorical values (e.g., Low Fat, Regular)
+- Handled duplicates using DISTINCT
+- Ensured proper data types
+
+---
+
+Database Design
+- Created normalized tables:
+  - `items`
+  - `outlets`
+  - `sales`
+- Implemented:
+  - Primary Keys
+  - Foreign Keys
+- Designed  Star Schema
+
+---
+
+Key Analysis Performed
+- Total Revenue & Average Sales
+- Sales by Item Type
+- Sales by Outlet Location & Type
+- Rating Analysis
+- Sales Category Segmentation
+- Top-performing items and outlets
+
+---
+
+Advanced SQL Features
+- Window Functions (RANK, LAG)
+- Common Table Expressions (CTE)
+- Aggregations and Grouping
+- Percentage contribution analysis
+
+---
+
+Join Analysis
+- Combined multiple tables using INNER JOIN
+- Generated insights across items, outlets, and sales
+
+---
+
+Data Validation
+- Checked for invalid values (e.g., negative sales)
+- Verified duplicates and missing values
+
+---
+
+Key Insights
+- Identified top-selling product categories
+- Analyzed outlet performance by location
+- Observed sales trends across years
+- Evaluated impact of item visibility on sales
+
+---
+
+ER Diagram
+- Designed using MySQL Workbench
+- Shows relationships between:
+  - Items
+  - Outlets
+  - Sales
+
+---
+
+Conclusion
+This project demonstrates strong SQL skills including data cleaning, database design, and advanced analytics to extract meaningful business insights.
